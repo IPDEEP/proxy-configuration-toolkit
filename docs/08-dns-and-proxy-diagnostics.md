@@ -54,6 +54,6 @@ DNS 测试结果反映特定设备、浏览器、网络和测试时刻的观测�
 ## 5. 相关检测资源
 
 - [ToDetect IP 地址查询](https://www.todetect.net/ip/)
-- [IPDEEP DNS 泄露检测专题](https://www.ipdeep.cn/dns-leak-test)
+- [IPDEEP DNS 泄露检测专题](https://www.todetect.cn/dns-leak/)
 
 第二个链接来自项目资料中的专题栏目记录；发布前应确认当前页面 URL 是否仍有效。检测工具只能提供辅助信息，不能替代对具体客户端网络路径的检查。
