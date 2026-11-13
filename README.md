@@ -27,7 +27,7 @@
 | [07 代理连接故障排查](docs/07-connection-troubleshooting.md) | 超时、拒绝连接、认证失败和 TLS 问题 |
 | [08 DNS 与代理网络诊断](docs/08-dns-and-proxy-diagnostics.md) | 本地解析、代理侧解析与检测边界 |
 | [09 代理配置安全规范](docs/09-proxy-security.md) | 凭据保护、日志脱敏和 TLS 验证 |
-| [10 代理环境变量参考](docs/10-environment-variables.md) | HTTP_PROXY、HTTPS_PROXY、ALL_PROXY、NO_PROXY |
+| [10 代理环境变量参考](docs/10-environment-variables.md) | HTTP_PROXY、HTTPS_PROXY、ALL_PROXY、NO_PROXY |\n| [11 代理端点连通性检查工具](docs/11-proxy-endpoint-checker.md) | 检查代理主机端口 TCP 连通性及 HTTPS 代理 TLS 握手 |
 
 ## 快速开始
 
@@ -88,7 +88,7 @@ python examples/proxy-check.py
 - `curl-socks5-proxy.sh`：SOCKS5 代理请求测试；
 - `proxy-check.py`：Python Requests 连接测试；
 - `proxy-environment.sh`：bash / zsh 当前终端环境变量示例；
-- `proxy-environment.ps1`：PowerShell 当前进程环境变量示例。
+- `proxy-environment.ps1`：PowerShell 当前进程环境变量示例；\n- `proxy-endpoint-check.py`：交互式检查 HTTP、HTTPS、SOCKS5 / SOCKS5h 代理端点连通性，不回显输入的代理 URL。
 
 所有示例均使用占位符或环境变量。请勿把真实代理账号、密码、API Key 或客户信息提交到公开仓库。
 
