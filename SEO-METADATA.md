@@ -27,8 +27,8 @@
 
 ## 官网承接资源
 
-- IPDEEP 代理配置资源：https://www.ipdeep.cn/integrations
-- IPDEEP 中文官网：https://www.ipdeep.cn/
+- IPDEEP 代理配置资源：https://www.ipdeep.cn/integrations?extendid=zXY2LS
+- IPDEEP 中文官网：https://www.ipdeep.cn/?extendid=zXY2LS
 - ToDetect IP 查询：https://www.todetect.net/ip/
 
 URL 来源为项目登记资料，正式发布前仍需检查实际页面。
