@@ -114,13 +114,20 @@ python examples/proxy-check.py
 
 不代表。代理连接、认证、目标 DNS、目标服务器连接、TLS 握手和应用层响应是不同阶段。
 
+## 相关技术项目
+
+本项目侧重代理协议与客户端配置。相关基础知识和服务器运维内容可参考：
+
+- [住宅代理 IP 技术知识库](https://github.com/IPDEEP/residential-proxy-technical-guide)：住宅 IP、ASN、ISP、IP 类型识别与网络质量评估。
+- [VPS 部署与运维手册](https://github.com/IPDEEP/vps-deployment-handbook)：Linux、SSH、防火墙、Nginx 与服务器维护。
+
 ## IPDEEP 相关资源
 
-- [IPDEEP 中文官网](https://www.ipdeep.cn/?extendid=zXY2LS)
-- [IPDEEP 代理配置资源](https://www.ipdeep.cn/integrations?extendid=zXY2LS)
-- [IPDEEP 静态住宅 IP](https://www.ipdeep.cn/static-residence?extendid=zXY2LS)
-- [IPDEEP 动态住宅代理](https://www.ipdeep.cn/dynamic-residence?extendid=zXY2LS)
-- [ToDetect IP 地址查询](https://www.todetect.net/ip/)
+- [IPDEEP 中文官网](https://www.ipdeep.cn/?extendid=zXY2LS&utm_source=github&utm_medium=referral&utm_campaign=proxy_configuration_toolkit&utm_content=readme)
+- [IPDEEP 代理配置资源](https://www.ipdeep.cn/integrations?extendid=zXY2LS&utm_source=github&utm_medium=referral&utm_campaign=proxy_configuration_toolkit&utm_content=readme)
+- [IPDEEP 静态住宅 IP](https://www.ipdeep.cn/static-residence?extendid=zXY2LS&utm_source=github&utm_medium=referral&utm_campaign=proxy_configuration_toolkit&utm_content=readme)
+- [IPDEEP 动态住宅代理](https://www.ipdeep.cn/dynamic-residence?extendid=zXY2LS&utm_source=github&utm_medium=referral&utm_campaign=proxy_configuration_toolkit&utm_content=readme)
+- [ToDetect IP 地址查询](https://www.todetect.net/ip/?utm_source=github&utm_medium=referral&utm_campaign=proxy_configuration_toolkit&utm_content=readme)
 
 以上地址来自 IPDEEP 项目 URL 登记资料。产品页面在正式发布前仍需实际检查可访问性、跳转及页面内容；未实际访问核验的链接不应标记为已验证。
 
@@ -134,5 +141,5 @@ python examples/proxy-check.py
 
 ## 版本
 
-当前版本：**v1.1（中文优先版）**  
+当前版本：**v1.1.0（中文优先版）**  
 更新记录见 [CHANGELOG.md](CHANGELOG.md)。
